@@ -16,7 +16,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Sandip Foundation</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,23 +31,29 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="https://en.wikipedia.org/wiki/Sandip_Foundation">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact for Inquiry</a>
-                    </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle bg-dark " type="button"
+                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                             Institutes
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/">Engineering</a></li>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="/">Engineering</a></li>
                             <li><a class="dropdown-item" href="/">M.B.A.</a></li>
                             <li><a class="dropdown-item" href="/">Pharmacye</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/">Other Courses</a></li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact for Inquiry</a>
                     </li>
 
                 </ul>
@@ -54,30 +61,60 @@
             </div>
         </div>
     </nav>
+    <h1>Welcome to Sandip Foundation</h1>
 
-    </div>
+    <!-- Form -->
+    <form>
+        <select class="form-select bg-light mt-4 mb-3" aria-label="Default select example">
+            <option selected>Inquiry About</option>
+            <option value="1">Engineering</option>
+            <option value="2">M.B.A.</option>
+            <option value="3">Pharmacy</option>
+            <option value="4">Other Courses</option>
+        </select>
 
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, delectus. Dignissimos, eligendi? Cupiditate
-        saepe numquam dolorum alias, consequuntur asperiores corrupti deleniti hic modi provident doloremque nulla, quia
-        quidem voluptates natus voluptatum maiores sequi libero suscipit? Expedita illo, rerum ullam officiis harum
-        delectus nulla.orporis commodi aliquid voluptate! Magni
-        dolores accusantium aliquam tempore facere
-        culpa autem, hic nesciunt minus asperiores, dolorum dignissimos, commodi laboriosam? Ab odio beatae, repellat
-        eligendi consequatur incidunt suscipit rem repudiandae totam quasi, impedit hic. Quam quia corporis, nesciunt
-        deleniti fugiat a aperiam nulla vel obcaecati debitis, voluptatibus animi error ad sed repudiandae in sunt iste
-        cumque placeat dolores ipsam totam est, dolor qui. Tenetur sed nesciunt cum odit sint. Velit non, aliquid ullam
-        voluptas similique dicta vitae, sunt repudiandae tempore eligendi accusamus autem fugiat placeat omnis ipsum
-        eveniet. Itaque, laboriosam quisquam error beatae non iure, ipsum assumenda dicta fugiat facere dolore nulla
-        quod architecto iusto ipsa ea consectetur earum doloremque, natus quia sed. Incidunt, fugiat! Cum harum enim
-        laudantium perferendis maxime aspernatur doloremque atque, sit assumenda impedit facilis vel, fuga ipsam ullam
-        pariatur est dolorem voluptates provident blanditiis iure quo qui aut iusto labore. Commodi, est!
-    </p>
+        <div class="row g-3 mb-3">
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Ask your querry here</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+
+              <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Call me back regarding admission process</label>
+              </div>
+
+            <div class="row">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Above information is true & Valid
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+            <!-- button  -->
+            <input class="btn btn-primary mb-5" type="submit" value="Submit">
+            
+        </div>
+
+    </form>
+
     <!-- footer -->
 
     <footer class="footer mt-auto py-3 bg-light d-flex">
         <div class="container ">
-            <span class="text-muted">Connect with developer @VAIBHAV MATERE</span>
+            <span class="text-muted">Connect with developer:<nav class="intro">@VAIBHAV MATERE</nav> for any update in website</span>
             <ul class="social-links list-non-bullet d-flex">
                 <li class="list-item-inline text-decoration-none"> <a class="link"
                         href="https://github.com/vaibhav18matere">Github</a></li>
