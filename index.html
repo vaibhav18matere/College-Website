@@ -30,23 +30,29 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="https://en.wikipedia.org/wiki/Sandip_Foundation">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact for Inquiry</a>
-                    </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle bg-dark " type="button"
+                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                             Institutes
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/">Engineering</a></li>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="/">Engineering</a></li>
                             <li><a class="dropdown-item" href="/">M.B.A.</a></li>
                             <li><a class="dropdown-item" href="/">Pharmacye</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/">Other Courses</a></li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact for Inquiry</a>
                     </li>
 
                 </ul>
@@ -66,7 +72,7 @@
         </div>
 
         <div class="carousel-inner">
-            <h1>Welcome to Sandip Foundation</h1>
+            <h1>Welcome to Sandip Foundation !</h1>
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="/images/SF1.jpg" class="d-block w-100" alt="sandip foundation campus image">
                 <div class="carousel-caption d-none d-md-block">
@@ -98,20 +104,13 @@
     </div>
 
     <div class="row my-4">
-        <div class="col-lg-4">
-            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
-                    dy=".3em">140x140</text>
-            </svg> -->
-
+        <div class="col-lg-4 mt-1">
             <img class="bd-placeholder-img rounded-circle" width="140" height="140"
                 src="https://source.unsplash.com/800x600/?job" alt="">
 
             <h2>100% students placement</h2>
             <p>We help students to achieve their dreams.</p>
-            <p><a class="btn btn-primary" href="#">View details »</a></p>
+            <p><a class="btn btn-primary" href="https://www.sandipfoundation.org/placement/our_recruiter.php">View details »</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -120,7 +119,7 @@
 
             <h2>World class faculty and facility</h2>
             <p>We help students to learn in depth through technological and anatomical models.</p>
-            <p><a class="btn btn-primary" href="#">View details »</a></p>
+            <p><a class="btn btn-primary" href="https://www.sandipfoundation.org/eng-faculty-page/?stream=E&course=C">View details »</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -132,8 +131,12 @@
                 enriches your knowledge</p>
             <p><a class="btn btn-primary" href="#">View details »</a></p>
         </div><!-- /.col-lg-4 -->
+
+  
+
     </div>
 
+    
     <!-- footer -->
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
@@ -149,6 +152,7 @@
     </footer>
 
     <!-- JS Bootstrap -->
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script> -->

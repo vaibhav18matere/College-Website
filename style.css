@@ -16,8 +16,6 @@ h1{
     padding: 0;
     overflow: hidden;
     background-color: #333333;
-    
-
 }
 
 li a:hover {
@@ -30,3 +28,19 @@ li a:hover {
     margin: auto;
 }
 
+.footer{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.intro{
+    color: blue;
+}
+
+.row{
+    padding: 0 10%;
+
+}
+.carousel-inner{
+    padding-top: 1rem;
+}
